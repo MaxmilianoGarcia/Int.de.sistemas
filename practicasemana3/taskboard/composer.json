@@ -1,0 +1,27 @@
+{
+    "name": "maximiliano/taskboard",
+    "description": "Proyecto integrador de Integracion de Sistemas",
+    "type": "protect",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maximiliano\\Taskboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maximiliano garcia",
+            "email": "alexmaxperezgarcia@gmail.com"
+        }
+    ],
+    "require":{
+        "nesbot/carbon": "^3.13",
+        "ramsey/uuid": "^4.9"
+    },
+    "autoload": {
+        "psr-4": { 
+            "App\\": "src/" 
+        } 
+    } 
+
+}
